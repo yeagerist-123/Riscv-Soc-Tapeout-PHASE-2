@@ -20,6 +20,11 @@ cd icc2_workshop_collaterals
 - **Status:** Training/workshop design (not for production tapeout)
 
 ---
+### **NOTE**
+- Make sure to adjust the clock in sdc  constraints to 100Mhz i.e 10ns in the vsdcaravel.sdc file
+
+<img width="1084" height="143" alt="sdcchange" src="https://github.com/user-attachments/assets/49b78004-5535-4ba3-9396-d8069fb7cd11" />
+
 
 ### **Step 2: Update Local Paths**
 Modified the following setup scripts to match local system:
@@ -210,6 +215,7 @@ save_lib -all
 
 ---
 
+
 ### **Step 5: Execute ICC2 Floorplan**
 
 **Command:**
@@ -227,6 +233,8 @@ initialize_floorplan -control_type die -boundary {{0 0} {3588 5188}}
 save_lib -all
 ... (design compilation details)
 ```
+<img width="1680" height="1050" alt="fprun" src="https://github.com/user-attachments/assets/8530f348-fc1e-4ccc-b8a0-04f31cbf41a3" />
+
 
 **Log File:** `outputs_icc2/task5_complete.log`
 
@@ -242,6 +250,7 @@ gui_start
 win
 zoom fit
 ```
+
 
 **Floorplan Visualization:**
 - **Red boundary** = Die outline (3588 × 5188 μm)
@@ -265,6 +274,7 @@ get_ports
 ```tcl
 place_pins -self
 ```
+<img width="1680" height="1050" alt="floorplanview" src="https://github.com/user-attachments/assets/0095bdba-9b0b-4312-a989-b5357cec1e1d" />
 
 **Result:**
 - All ports automatically placed on core boundary edges
