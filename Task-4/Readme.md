@@ -90,12 +90,14 @@ This confirms a **clean external reset architecture**.
 **RTL SIMULATION**
 **STATUS** : PASSED ✅
 
-![rtl](.Screenshots/hkspi_rtl.jpeg)
+<img width="1249" height="700" alt="Screenshot 2025-12-31 185848" src="https://github.com/user-attachments/assets/0a8142b2-5c00-46df-8571-8aa2d2cf8016" />
+
 
 **GLS SIMULATION**
 **STATUS** : PASSED ✅
 
-![rtl](.Screenshots/hkspi_gls.jpeg)
+<img width="1234" height="685" alt="Screenshot 2025-12-31 190055" src="https://github.com/user-attachments/assets/6ed879b7-37b3-4f10-bab0-de474d821178" />
+
 
 ---
 
@@ -104,7 +106,8 @@ This confirms a **clean external reset architecture**.
 **RTL SIMULATION**
 **STATUS** : FAILED ❌
 
-![rtl](.Screenshots/gpio_rtl.jpeg)
+<img width="1224" height="609" alt="Screenshot 2025-12-31 190139" src="https://github.com/user-attachments/assets/19afd6ab-1334-4a14-a48f-009d65ff769b" />
+
 
 ---
 
@@ -113,7 +116,8 @@ This confirms a **clean external reset architecture**.
 **RTL SIMULATION**
 **STATUS** : FAILED ❌
 
-![rtl](.Screenshots/irq_rtl.jpeg)
+<img width="1215" height="461" alt="Screenshot 2025-12-31 190227" src="https://github.com/user-attachments/assets/71aedbdf-354e-444e-ab94-b54e98fe56cd" />
+
 
 ---
 ### TEST-4: STORAGE
@@ -121,14 +125,16 @@ This confirms a **clean external reset architecture**.
 **RTL SIMULATION**
 **STATUS** : FAILED ❌
 
-![rtl](.Screenshots/storage_rtl.jpeg)
+<img width="1224" height="377" alt="Screenshot 2025-12-31 190415" src="https://github.com/user-attachments/assets/3233f53a-1726-4d21-89aa-12a50bfe6339" />
+
 
 ---
 ### TEST-5: MPRJ_CONTROL
 **RTL SIMULATION**
 **STATUS** : FAILED ❌
 
-![rtl](.Screenshots/mprj_rtl.jpeg)
+<img width="1250" height="600" alt="Screenshot 2025-12-31 190458" src="https://github.com/user-attachments/assets/0e7bba08-a348-4b2a-a7b0-76c8f34504bf" />
+
 
 ---
 
@@ -175,12 +181,14 @@ Reset | External (`resetb`) |
 **Black Boxed SRAM**
 *(So sram will be treated as `RTL` models for `gls`)*
 
-![rtl](.Screenshots/bb.jpeg)
+<img width="1258" height="755" alt="Screenshot 2025-12-31 190552" src="https://github.com/user-attachments/assets/d0243b3c-af07-45e2-bdf5-f2e09e991205" />
+
 
 
 **GLS OUTPUT**
 
-![rtl](.Screenshots/sram_rtl_gl.jpeg)
+<img width="1163" height="711" alt="Screenshot 2025-12-31 190646" src="https://github.com/user-attachments/assets/7d758ff0-809f-4f81-bb4e-e1163a28c71b" />
+
 
 ---
 ## 🧪 Phase-4: SRAM Synthesis
@@ -219,11 +227,13 @@ Reset | External (`resetb`) |
 
 **Synthesized SRAM Models**
 
-![rtl](.Screenshots/synth_sram.jpeg)
+<img width="965" height="529" alt="Screenshot 2025-12-31 190743" src="https://github.com/user-attachments/assets/649f77ce-0d00-450f-9137-1e76cc059e9a" />
+
 
 **GLS OUTPUT**
 
-![rtl](.Screenshots/sram_synth_gl.jpeg)
+<img width="1221" height="712" alt="Screenshot 2025-12-31 190813" src="https://github.com/user-attachments/assets/8654d955-b4f9-472c-9dca-a78cda69dd01" />
+
 
 ---
 
