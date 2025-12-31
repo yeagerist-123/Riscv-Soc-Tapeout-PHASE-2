@@ -4,6 +4,12 @@
 
 **Key Learnings : Completed 5 critical boundary modules** for VSD Caravel SoC migration (Sky130→SCL180 PDK) as part of VSD aTapeout Programme. Fixed std cell mismatches, verified RTL→synthesis→ICC2 floorplan progression.
 
+## 📌 Program Poster
+
+<img width="1253" height="701" alt="Screenshot 2025-12-31 191156" src="https://github.com/user-attachments/assets/444f8f00-da6d-4cbd-8820-5f484af78e71" />
+
+
+
 ## 1. Programme Overview
 
 Hands-on **industry-grade tapeout experience** using Synopsys VCS/DC/ICC2 on real SCL180 PDK from SCL. Full flow: RTL verification → GLS → technology-aware synthesis → floorplanning/power planning.
