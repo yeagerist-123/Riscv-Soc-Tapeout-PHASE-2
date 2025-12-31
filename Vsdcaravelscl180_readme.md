@@ -1,4 +1,4 @@
-# VSD Caravel SCL180 SoC Integration & Boundary Validation Engineer
+# VSD Caravel SoC Integration and Validation of Protection, Interface, and Wrapper Subsystems
 
 **Participant: Pedaprolu Mohan Koushik** | **SCL180 RISC-V SoC Tapeout** | **Full RTL→Synthesis→routing Flow**  
 
